@@ -1,0 +1,29 @@
+name:                probability-monads
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/dennybritz/probability-monads
+author:              Denny Britz
+maintainer:          dennybritz@gmail.com
+copyright:           2022 Denny Britz
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - containers
+  - random
+
+# ghc-options:
+# - -Wall
+# - -Wcompat
+# - -Widentities
+# - -Wincomplete-record-updates
+# - -Wincomplete-uni-patterns
+# - -Wmissing-export-lists
+# - -Wmissing-home-modules
+# - -Wpartial-fields
+# - -Wredundant-constraints
+
+library:
+  source-dirs: src
